@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 20px;
+}
+.texto{
+    height: 200px;
+    width: 300px;
+    border: 1px solid black;
+    overflow: auto;
+}
+p{
+    font-weight: 1000;
+    text-indent: 40px; /*Esto es para la separacion de la separacion de parrafos*/
+    text-transform: uppercase; /*Esto es para tranformar el parrafo en algo en espesifico como mayusculas o minusculas*/
+    /*text-transform: lowercase;*/
+    white-space: pre;/*Esto sirve para aplicar el formato como esta en dicha etiqueta ejemplos espacion que ponga en la etiqueta*/
+}

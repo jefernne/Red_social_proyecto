@@ -1,0 +1,51 @@
+/*
+*{
+    margin: 0;
+    padding: 0;
+}
+.otro_contenido > p{
+    background-color: aquamarine;
+    padding: 5px;
+}
+a > strong{
+    color: red;
+    background-color: black;
+}
+a + p{
+    font-size: 25px;
+
+    background-color:blue;
+}
+.otro_contenido ~ p{
+    background-color:red;
+}*/
+*{
+    margin: 0;
+    padding: 0;
+}
+p span:first-child{
+    background-color: aqua;
+}
+P span:last-child{
+    background-color: brown;
+    color: white;
+}
+p span :only-child{
+    background-color: black;
+    color: white;
+}
+a{
+    display: block;
+    margin: 5px;
+}
+a:link{
+    color:forestgreen
+}
+a:visited{
+    color: darkred;
+}
+a:active{
+    background-color: bisque;
+    border-radius: 5px;
+    color: black;
+}

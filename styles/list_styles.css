@@ -1,0 +1,5 @@
+ol,ul{
+    list-style-type:decimal-leading-zero ;
+    
+    list-style-image: url(../icons/boton-de-flecha-derecha-del-teclado.png);
+}

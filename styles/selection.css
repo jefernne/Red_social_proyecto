@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 20px;
+}
+::selection{
+    background-color: brown;
+    color: white;
+    
+}

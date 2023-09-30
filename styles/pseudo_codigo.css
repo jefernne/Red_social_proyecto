@@ -1,0 +1,6 @@
+h1::before{
+    content: 'Esto es la etiqueta ';
+}
+h1::after{
+    content: 'Hola jefernne';
+}
